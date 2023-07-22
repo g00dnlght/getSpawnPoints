@@ -8,8 +8,8 @@ local function savePosition(heading, pos)
 
     SaveResourceFile(GetCurrentResourceName(), "positions.json", json.encode(currentPositions), -1)
 
-    print("^5[Obtain Position]^7 ^2Successfully saved positions to the JSON file!^7")
-    print("^3#] heading: " .. heading .. " | X, Y, Z: " .. pos .. "^7")
+    --[[ print("^5[Obtain Position]^7 ^2Successfully saved positions to the JSON file!^7") ]]
+    --[[ print("^3#] heading: " .. heading .. " | X, Y, Z: " .. pos .. "^7") ]]
 end
 
 --Event Handlers
